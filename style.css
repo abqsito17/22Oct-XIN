@@ -134,6 +134,17 @@ button.continue:hover {
   animation: fadeIn 2s ease-in-out forwards;
 }
 
+.flowers-container .heart {
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  background: url('images/heart.png') no-repeat center/contain;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  z-index: 2;
+}
+
+
 /* Heart and bubble styles */
 .heart {
   position: absolute;
